@@ -51,11 +51,10 @@ In the following keymappings, ```n``` stands for ```NORMAL``` mode, ```i``` stan
 | ```n```     | ```A```     | Append at the end of the line
 | ```n```     | ```o```     | Insert to next line | 
 | ```n```     | ```O```     | Insert to previous line | 
-| ```n```     | ```O```     | Insert to previous line | 
 | ```n```     | ```c``` + ```[Navigation]```| Delete from before the cursor to ```[Navigation]``` and insert. Exmaples are as follow | 
 | ```n```     | ```c``` + ```w```| Delete from before the cursor to end of current word and insert  | 
 | ```n```     | ```c``` + ```i``` + ```w```| Delete current word and insert  | 
-| ```n```     | ```c``` + ```$```| Delete from before the cusror to end of the line and insert |
+| ```n```     | ```c``` + ```$```| Delete from before the cursor to end of the line and insert |
 | ```i```     | ```<Esc>```     | Go back to Normal Mode, remap to ```jk``` recommended |
 
 ### Edit in ```NORMAL``` Mode
@@ -64,7 +63,7 @@ In the following keymappings, ```n``` stands for ```NORMAL``` mode, ```i``` stan
 | ```n```     | ```dd``` | Delete(cut) current line | 
 | ```n```     | ```d``` + ```[Number]``` + ```d```| Delete(cut) following ```[Number]``` of lines|
 | ```n```     | ```d``` + ```[Navigation]```     | Delete(cut) from before the cursor to ```[Navigation]```, similar to ```c``` + ```[Navigation]``` above|
-| ```n```     | ```yy``` | Yank(cpy) current line | 
+| ```n```     | ```yy``` | Yank(copy) current line | 
 | ```n```     | ```y``` + ```[Number]``` + ```y```| Yank(copy) following ```[Number]``` of lines|
 | ```n```     | ```y``` + ```[Navigation]```     | Yank(copy) from before the cursor to ```[Navigation]```, similar to ```c``` + ```[Navigation]``` above|
 | ```n```     | ```p```     | Paste from what you delete or yank |
@@ -82,7 +81,7 @@ In the following keymappings, ```n``` stands for ```NORMAL``` mode, ```i``` stan
 ### Vim settings under VSCode
 1. Press ```Ctrl+Shift+p``` in VSCode
 2. Find ```Preferences: Open User Settings (JSON)```, open ```settings.json```
-3. Configure the file , all options are [here](https://github.com/VSCodeVim/Vim)
+3. Configure the file, all options are [here](https://github.com/VSCodeVim/Vim)
 ---
 
 ## Part 2: Neovim Setup
