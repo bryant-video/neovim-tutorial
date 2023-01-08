@@ -51,7 +51,7 @@ In the following keymappings, ```n``` stands for ```NORMAL``` mode, ```i``` stan
 | ```n```     | ```A```     | Append at the end of the line
 | ```n```     | ```o```     | Insert to next line | 
 | ```n```     | ```O```     | Insert to previous line | 
-| ```n```     | ```c``` + ```[Navigation]```| Delete from before the cursor to ```[Navigation]``` and insert. Exmaples are as follow | 
+| ```n```     | ```c``` + ```[Navigation]```| Delete from before the cursor to ```[Navigation]``` and insert. Examples are as follow | 
 | ```n```     | ```c``` + ```w```| Delete from before the cursor to end of current word and insert  | 
 | ```n```     | ```c``` + ```i``` + ```w```| Delete current word and insert  | 
 | ```n```     | ```c``` + ```$```| Delete from before the cursor to end of the line and insert |
