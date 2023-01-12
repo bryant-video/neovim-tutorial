@@ -62,12 +62,6 @@ for type, icon in pairs(signs) do
   vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
 end
 
--- configure html server
-lspconfig["html"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
-
 -- configure typescript server with plugin
 typescript.setup({
   server = {
@@ -84,23 +78,50 @@ rt.setup({
   },
 })
 
+-- configure cpp clangd
+lspconfig["clangd"].setup({
+  capabilities = capabilities,
+  on_attach = on_attach,
+})
+
 -- configure css server
 lspconfig["cssls"].setup({
   capabilities = capabilities,
   on_attach = on_attach,
 })
 
--- configure tailwindcss server
-lspconfig["tailwindcss"].setup({
+-- configure html server
+lspconfig["html"].setup({
   capabilities = capabilities,
   on_attach = on_attach,
 })
 
+lspconfig["cssls"].setup({
+  capabilities = capabilities,
+  on_attach = on_attach,
+})
 -- configure emmet language server
 lspconfig["emmet_ls"].setup({
   capabilities = capabilities,
   on_attach = on_attach,
   filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
+})
+
+-- configure pyright server
+lspconfig["pyright"].setup({
+  capabilities = capabilities,
+  on_attach = on_attach,
+  settings = {
+    pyright = {
+      autoImportCompletion = true,
+      python = {
+        analysis = {
+          autoSearchPaths = true,
+          useLibraryCodeForTypes = true,
+        },
+      },
+    },
+  },
 })
 
 -- configure lua server (with special settings)
