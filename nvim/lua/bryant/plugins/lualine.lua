@@ -14,11 +14,13 @@ local new_colors = {
   violet = "#FF61EF",
   yellow = "#FFDA7B",
   black = "#000000",
+  uiuc_blue = "#13294B",
+  uiuc_orange = "#E84A27",
 }
 
 -- change nightlfy theme colors
 lualine_nightfly.normal.a.bg = new_colors.blue
-lualine_nightfly.insert.a.bg = new_colors.green
+lualine_nightfly.insert.a.bg = new_colors.uiuc_orange
 lualine_nightfly.visual.a.bg = new_colors.violet
 lualine_nightfly.command = {
   a = {
