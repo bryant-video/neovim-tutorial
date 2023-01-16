@@ -8,6 +8,12 @@ end
 
 tn.setup({
   style = "storm",
+  dim_inactive = true,
+  lualine_bold = true,
+  styles = {
+    comments = { italic = true },
+    keywords = { italic = true },
+  },
 })
 
 vim.cmd("colorscheme tokyonight-storm")

@@ -51,6 +51,13 @@ keymap.set("n", "<leader>gfc", "<cmd>Telescope git_bcommits<cr>") -- list git co
 keymap.set("n", "<leader>gb", "<cmd>Telescope git_branches<cr>") -- list git branches (use <cr> to checkout) ["gb" for git branch]
 keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current changes per file with diff preview ["gs" for git status]
 
+-- hop cmd
+keymap.set("n", "<leader>hw", ":HopWord<cr>")
+keymap.set("n", "<leader>hl", ":HopLine<cr>")
+keymap.set("n", "<leader>hls", ":HopLineStart<cr>")
+keymap.set("n", "<leader>hc", ":HopChar1<cr>")
+keymap.set("n", "<leader>hcc", ":HopChar2<cr>")
+
 -- restart lsp server
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
 
