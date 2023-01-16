@@ -12,7 +12,7 @@
 
 ## Part 1: Vim Shortcuts
 
-**Tutorial Video Links: [Youtube](), [Bilibili]()**
+**Tutorial Video Links: [Youtube](https://www.youtube.com/watch?v=5nHdG0MdK1Y), [Bilibili](https://www.bilibili.com/video/BV1qD4y1W7aG/?spm_id_from=333.999.0.0&vd_source=a32bcb316a5f16efd4a398938b585caf)**
 
 ### Installation:
 
@@ -37,21 +37,47 @@ In the following keymappings, `n` stands for `NORMAL` mode, `i` stands for `INSE
 
 ### Navigation
 
-| Mode     | Shortcut                         | Description                       |
-| -------- | -------------------------------- | --------------------------------- |
-| `n`, `v` | `h`                              | Move left                         |
-| `n`, `v` | `j`                              | Move down                         |
-| `n`, `v` | `k`                              | Move up                           |
-| `n`, `v` | `l`                              | Move right                        |
-| `n`, `v` | `w`                              | One word forward                  |
-| `n`, `v` | `b`                              | One word backward                 |
-| `n`, `v` | `^`                              | Beginning of line                 |
-| `n`, `v` | `$`                              | End of line                       |
-| `n`, `v` | `gg`                             | Beginning of file                 |
-| `n`, `v` | `G`                              | End of file                       |
-| `n`, `v` | `{`                              | One paragraph backward            |
-| `n`, `v` | `}`                              | One paragraph forward             |
-| `n`      | `:[num-of-line]` + `Enter`       | Go to a specific line             |
+| Mode     | Shortcut                         | Description                                                                  |
+| -------- | -------------------------------- | ---------------------------------------------------------------------------- |
+| `n`, `v` | `h`                              | Move left                                                                    |
+| `n`, `v` | `j`                              | Move down                                                                    |
+| `n`, `v` | `k`                              | Move up                                                                      |
+| `n`, `v` | `l`                              | Move right                                                                   |
+| `n`, `v` | `w`                              | One word forward                                                             |
+| `n`, `v` | `b`                              | One word backward                                                            |
+| `n`, `v` | `^`                              | Beginning of line                                                            |
+| `n`, `v` | `$`                              | End of line                                                                  |
+| `n`, `v` | `gg`                             | Beginning of file                                                            |
+| `n`, `v` | `G`                              | End of file                                                                  |
+| `n`, `v` | `{`                              | One paragraph backward                                                       |
+| `n`, `v` | `}`                              | One paragraph forward                                                        |
+| `n`, `v` | `f` + `[char]`                   | Move to next occurence of `[char]` in current line (Covered in Part 2 video) |
+| `n`, `v` | `F` + `[char]`                   | Move to prev occurence of `[char]` in current line (Covered in Part 2 video) |
+| `n`, `v` | `Ctrl`+`u`                       | Move Up half a Page (Covered in Part 2 video                                 |
+| `n`, `v` | `Ctrl`+`d`                       | Move Down half a Page (Covered in Part 2 video)                              |
+| `n`, `v` | `Ctrl`+`b`                       | Move Up a Full Page (Covered in Part 2 video)                                |
+| `n`, `v` | `Ctrl`+`f`                       | Move Down a Full Page (Covered in Part 2 video)                              |
+| `n`      | `:[num-of-line]` + `Enter`       | Go to a specific line                                                        |
+| `n`, `v` | `/[search-item]` + `Enter` + `n` | Find pattern and go to next match                                            |
+
+### Enter `INSERT` Mode from `NORMAL` Mode
+
+| Mode | Shortcut             | Description                                                                        |
+| ---- | -------------------- | ---------------------------------------------------------------------------------- |
+| `n`  | `i`                  | Insert before cursor                                                               |
+| `n`  | `a`                  | Append after cursor                                                                |
+| `n`  | `I`                  | Insert at the beginning of the line                                                |
+| `n`  | `A`                  | Append at the end of the line                                                      |
+| `n`  | `o`                  | Insert to next line                                                                |
+| `n`  | `O`                  | Insert to previous line                                                            |
+| `n`  | `c` + `[Navigation]` | Delete from before the cursor to `[Navigation]` and insert. Examples are as follow |
+| `n`  | `c` + `w`            | Delete from before the cursor to end of current word and insert                    |
+| `n`  | `c` + `i` + `w`      | Delete current word and insert                                                     |
+| `n`  | `c` + `$`            | Delete from before the cursor to end of the line and insert                        |
+| `i`  | `<Esc>`              | Go back to Normal Mode, remap to `jk` recommended                                  |
+
+| `n`, `v` | `}` | One paragraph forward |
+| `n` | `:[num-of-line]` + `Enter` | Go to a specific line |
 | `n`, `v` | `/[search-item]` + `Enter` + `n` | Find pattern and go to next match |
 
 ### Enter `INSERT` Mode from `NORMAL` Mode
@@ -106,7 +132,8 @@ In the following keymappings, `n` stands for `NORMAL` mode, `i` stands for `INSE
 
 ## Part 2: Neovim
 
-**Tutorial Video Links: Youtube, Bilibili**
+**Tutorial Video Links: Youtube, Bilibili**\
+**Speical Thank: My Neovim Tutorial won't be possible without [Josean dev](https://www.youtube.com/watch?v=vdn_pKJUda8)'s amazing video**
 
 Install [NeoVim](https://github.com/neovim/neovim/wiki/Installing-Neovim), go to `~/.config/` directory, and create a `nvim` folder with the folder structure as following
 
@@ -148,6 +175,8 @@ Install [NeoVim](https://github.com/neovim/neovim/wiki/Installing-Neovim), go to
 9. **Window Maximizer**: [vim-maximizer](https://github.com/szw/vim-maximizer)
 10. **AutoPairing:** [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 11. **Surround:** [vim-surround](https://github.com/tpope/vim-surround)\
+12. **Fast Navigation:** [hop](https://github.com/phaazon/hop.nvim)\
+
     ...
 
 ### Steps to install a new package
@@ -179,14 +208,18 @@ These are the customized shortcuts **I configured**, which I use often. Feel fre
 | `Telescope`| `<leader>gs`| List current changes per file with diff views|
 | `Telescope`| `Ctrl`+`c`| Close Telescope window while in `INSERT` mode|
 | `Vim-Maximizer`| `<leader>sm`| Maximize/Unmaximize current window the cursor is on|
+| `Hop`| `<leader>hc`| HopChar2, Type 2 chars and then jump to the match you want |
+| `Hop`| `<leader>hcc`| HopChar2MW, Same as above, but in multiple windows |
+| `Hop`| `<leader>hw`| HopWord, One symbol for different parts of code, recursively hop to the word you want |
+| `Hop`| `<leader>hww`| HopWordMW, Same as above, but in multiple windows |
 
 ---
 
 ## Part 3: Neovim Language Protocol Server(LSP) Setup
 
-**Tutorial Video Links: [Youtube](), [Bilibili]()**
+**Tutorial Video Links: Youtube, Bilibili**
 
-### Packages I use
+### Plugins I use
 
 1. LSP manager: [Mason](https://github.com/williamboman/mason.nvim), [Mason-Lspconfig](https://github.com/williamboman/mason-lspconfig.nvim)
 2. LSP configuration: [lspconfig](https://github.com/neovim/nvim-lspconfig), [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
@@ -200,13 +233,13 @@ These are the customized shortcuts **I configured**, which I use often. Feel fre
 These are the customized shortcuts **I configured**, which I use often. Feel free to map your own key mappings.
 | Package | Shortcut | Description |
 | ----------- | ----------- | ----------- |
-| `Lsp saga`| `gd`| Peek Definition of object/function under cursor |
-| `Lsp saga`| `q`| Quit Peek Definition while in `NORMAL` mode|
-| `Lsp saga`| `gD`| Go to Declaration of object/function under cursor|
-| `Lsp saga`| `Ctrl + o`| Go back to prev buffer(Ex. Go back from Declaration)|
-| `Lsp saga`| `Ctrl + i`| Go to next buffer |
+| `Lsp Config`| `gd`| Peek Definition of object/function under cursor |
+| `Lsp Config`| `q`| Quit Peek Definition while in `NORMAL` mode|
+| `Lsp Config`| `gD`| Go to Declaration of object/function under cursor|
+| `Lsp Config`| `gi`| Go to Implementation of the object/function under cursor |
+| `Lsp Config / saga`| `Ctrl + o`| Go back to prev buffer(Ex. Go back from Declaration)|
+| `Lsp Config / saga`| `Ctrl + i`| Go to next buffer |
 | `Lsp saga`| `gr`| Show all References of the object/function under cursor |
-| `Lsp saga`| `gi`| Go to Implementation of the object/function under cursor |
 | `Lsp saga`| `K`| Show Documentation under the cursor |
 | `Lsp saga`| `]d`| Go to next diagnostic |
 | `Lsp saga`| `[d`| Go to prev diagnostic |

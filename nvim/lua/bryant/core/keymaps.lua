@@ -53,10 +53,11 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 
 -- hop cmd
 keymap.set("n", "<leader>hw", ":HopWord<cr>")
+keymap.set("n", "<leader>hww", ":HopWordMW<cr>")
+keymap.set("n", "<leader>hc", ":HopChar2<cr>")
+keymap.set("n", "<leader>hcc", ":HopChar2MW<cr>")
 keymap.set("n", "<leader>hl", ":HopLine<cr>")
 keymap.set("n", "<leader>hls", ":HopLineStart<cr>")
-keymap.set("n", "<leader>hc", ":HopChar1<cr>")
-keymap.set("n", "<leader>hcc", ":HopChar2<cr>")
 
 -- restart lsp server
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
