@@ -76,10 +76,6 @@ In the following keymappings, `n` stands for `NORMAL` mode, `i` stands for `INSE
 | `n`  | `c` + `$`            | Delete from before the cursor to end of the line and insert                        |
 | `i`  | `<Esc>`              | Go back to Normal Mode, remap to `jk` recommended                                  |
 
-| `n`, `v` | `}` | One paragraph forward |
-| `n` | `:[num-of-line]` + `Enter` | Go to a specific line |
-| `n`, `v` | `/[search-item]` + `Enter` + `n` | Find pattern and go to next match |
-
 ### Enter `INSERT` Mode from `NORMAL` Mode
 
 | Mode | Shortcut             | Description                                                                        |
