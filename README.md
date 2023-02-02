@@ -53,7 +53,7 @@ In the following keymappings, `n` stands for `NORMAL` mode, `i` stands for `INSE
 | `n`, `v` | `}`                              | One paragraph forward                                                        |
 | `n`, `v` | `f` + `[char]`                   | Move to next occurence of `[char]` in current line (Covered in Part 2 video) |
 | `n`, `v` | `F` + `[char]`                   | Move to prev occurence of `[char]` in current line (Covered in Part 2 video) |
-| `n`, `v` | `Ctrl`+`u`                       | Move Up half a Page (Covered in Part 2 video                                 |
+| `n`, `v` | `Ctrl`+`u`                       | Move Up half a Page (Covered in Part 2 video)                                |
 | `n`, `v` | `Ctrl`+`d`                       | Move Down half a Page (Covered in Part 2 video)                              |
 | `n`, `v` | `Ctrl`+`b`                       | Move Up a Full Page (Covered in Part 2 video)                                |
 | `n`, `v` | `Ctrl`+`f`                       | Move Down a Full Page (Covered in Part 2 video)                              |
@@ -128,7 +128,7 @@ In the following keymappings, `n` stands for `NORMAL` mode, `i` stands for `INSE
 
 ## Part 2: Neovim
 
-**Tutorial Video Links: Youtube, Bilibili**\
+**Tutorial Video Links: [Youtube](https://www.youtube.com/watch?v=iIILit70T-Y), [Bilibili](https://www.bilibili.com/video/BV1zY4y1Z7FR/?spm_id_from=333.999.0.0&vd_source=a32bcb316a5f16efd4a398938b585caf)**
 **Speical Thank: My Neovim Tutorial won't be possible without [Josean dev](https://www.youtube.com/watch?v=vdn_pKJUda8)'s amazing video**
 
 Install [NeoVim](https://github.com/neovim/neovim/wiki/Installing-Neovim), go to `~/.config/` directory, and create a `nvim` folder with the folder structure as following
@@ -206,10 +206,11 @@ These are the customized shortcuts **I configured**, which I use often. Feel fre
 | `Vim-Maximizer`| `<leader>sm`| Maximize/Unmaximize current window the cursor is on|
 | `Hop`| `<leader>hc`| HopChar2, Type 2 chars and then jump to the match you want |
 | `Hop`| `<leader>hcc`| HopChar2MW, Same as above, but in multiple windows |
-| `Hop`| `<leader>hw`| HopWord, One symbol for different parts of code, recursively hop to the word you want |
-| `Hop`| `<leader>hww`| HopWordMW, Same as above, but in multiple windows |
 
 ---
+
+Other tips:
+Termtoggle plugins
 
 ## Part 3: Neovim Language Protocol Server(LSP) Setup
 
@@ -229,16 +230,16 @@ These are the customized shortcuts **I configured**, which I use often. Feel fre
 These are the customized shortcuts **I configured**, which I use often. Feel free to map your own key mappings.
 | Package | Shortcut | Description |
 | ----------- | ----------- | ----------- |
-| `Lsp Config`| `gd`| Peek Definition of object/function under cursor |
-| `Lsp Config`| `q`| Quit Peek Definition while in `NORMAL` mode|
-| `Lsp Config`| `gD`| Go to Declaration of object/function under cursor|
-| `Lsp Config`| `gi`| Go to Implementation of the object/function under cursor |
-| `Lsp Config / saga`| `Ctrl + o`| Go back to prev buffer(Ex. Go back from Declaration)|
-| `Lsp Config / saga`| `Ctrl + i`| Go to next buffer |
-| `Lsp saga`| `gr`| Show all References of the object/function under cursor |
-| `Lsp saga`| `K`| Show Documentation under the cursor |
+| `Lsp config / Lsp saga`| `gd`| Peek Definition of object/function under cursor |
+| `Lsp config / Lsp saga`| `q`| Quit Peek Definition while in `NORMAL` mode|
+| `Lsp config / Lsp saga`| `gD`| Go to Declaration of object/function under cursor|
+| `Lsp config / Lsp saga`| `Ctrl + o`| Go back to prev buffer(Ex. Go back from Declaration)|
+| `Lsp config / Lsp saga`| `Ctrl + i`| Go to next buffer |
+| `Lsp config / Lsp saga`| `gr`| Show all References of the object/function under cursor |
+| `Lsp config / Lsp saga`| `K`| Show Documentation under the cursor |
 | `Lsp saga`| `]d`| Go to next diagnostic |
 | `Lsp saga`| `[d`| Go to prev diagnostic |
 | `Lsp saga`| `<leader>rn`| Rename a variable/class/struct |
+| `Lsp saga`| `<leader>tt`| Open a Floating Terminal |
 | `trouble`| `<leader>xd`| Open diagnostic for current file |
 | `trouble`| `q`| quit trouble diagnostic while in `NORMAL` mode|
