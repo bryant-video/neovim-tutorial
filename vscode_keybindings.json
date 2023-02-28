@@ -39,6 +39,7 @@
   "vim.leader": " ",
   "vim.easymotion": true,
   "vim.sneak": true,
+  "vim.surround": true,
   "vim.statusBarColorControl": true,
   "vim.statusBarColors": {
     "normal": "#005f5f",
