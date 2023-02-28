@@ -1,0 +1,20 @@
+[
+  { "key": "ctrl+d", "command": "editor.action.peekDefinition" },
+  {
+    "key": "ctrl+d",
+    "command": "editor.closeTestPeek",
+    "when": "testing.isInPeek && !config.editor.stablePeek || testing.isPeekVisible && !config.editor.stablePeek"
+  },
+  { "key": "ctrl+n", "command": "editor.action.rename" },
+  { "key": "ctrl+z", "command": "workbench.action.terminal.focus" },
+  {
+    "key": "ctrl+z",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  { "key": "ctrl+m", "command": "workbench.action.toggleEditorWidths" },
+  { "key": "ctrl+\\", "command": "workbench.action.splitEditor" },
+  { "key": "ctrl+h", "command": "workbench.action.navigateLeft" },
+  { "key": "ctrl+l", "command": "workbench.action.navigateRight" },
+  { "key": "ctrl+w", "command": "workbench.action.closeEditorsAndGroup" }
+]

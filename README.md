@@ -8,6 +8,8 @@
 
 ### Part 3: [Neovim Language Server Protocol(LSP) Setup](#part-3-neovim-language-protocol-serverlsp-setup)
 
+### Part 4: [VSCode Vim](#part-4-vscode-vim)
+
 ---
 
 ## Part 1: Vim Shortcuts
@@ -214,7 +216,7 @@ Termtoggle plugins
 
 ## Part 3: Neovim Language Protocol Server(LSP) Setup
 
-**Tutorial Video Links: Youtube, Bilibili**
+**Tutorial Video Links: [Youtube](), [Bilibili]()**
 
 ### Plugins I use
 
@@ -243,3 +245,42 @@ These are the customized shortcuts **I configured**, which I use often. Feel fre
 | `Lsp saga`| `<leader>tt`| Open a Floating Terminal |
 | `trouble`| `<leader>xd`| Open diagnostic for current file |
 | `trouble`| `q`| quit trouble diagnostic while in `NORMAL` mode|
+
+## Part 4: VScode Vim
+
+**Tutorial Video Links: Youtube, Bilibili** <br/>
+Remember to remap the `leader` key to `space` in `settings.json`. For the emulated Vim plugins, some of them need to turn them on in `settings.json` as well, refer to the doc to see if that is required.
+
+### Edit in `NORMAL`
+
+| Package        | Shortcut                      | Description                                                                                       | Remap Needed?      |
+| -------------- | ----------------------------- | ------------------------------------------------------------------------------------------------- | ------------------ |
+| Vim            | `gb`                          | Mutlicursor operation                                                                             |
+| Vim Commentary | `gcc` / `gc5j`                | Toggle comment on this line / next 5 line(not including current line)                             |
+| EasyMotion     | `<leader><leader>s+[char]`    | Quick navigation to `[char]` on the screen(more motion on doc)                                    |                    |
+| Vim-surround   | `ys[motion][symbol]`, `ysiw)` | Yank `[symbol]` around `[motion]`, the example means surround the word under the cursor with `()` |                    |
+| Vim-surround   | `cs[symbol][newsymbol]`       | Change `[symbol]` to `[newsymbol]` when your cursor is within the `[symbol]`                      |                    |
+| Vim Sneak      | `<operator>z<char><char>`     | Do `[operator]` until the next occurence of `<char><char>`                                        |
+| Vim Sneak      | `3dzqt`                       | An example: Delete everything until the next 3rd occurence of `qt`                                |
+| VScode         | `Ctrl+n`                      | Rename all the pattern that is under the cursor                                                   | `keybindings.json` |
+
+### Tab, File and Window Navigation
+
+| Package | Shortcut               | Description                                                          | Remap Needed?      |
+| ------- | ---------------------- | -------------------------------------------------------------------- | ------------------ |
+| VSCode  | `ctrl + d`             | Toggle peek definition                                               | `keybindings.json` |
+| Vim     | `gd`                   | Go to Definition                                                     |                    |
+| Vim     | `gh`                   | Hover doc                                                            |                    |
+| VScode  | `cmd/ctrl+p`           | Search file by name and open                                         |                    |
+| Vim     | `tp`, `tn`, `tf`, `tl` | In the current editor group: prev tab, next tab, first tab, last tab | `settings.json`    |
+| VScode  | `ctrl+z`               | Switch focus between editor and terminal                             | `keybindings.json` |
+| VScode  | `cmd/ctrl+j`           | Hide Terminal                                                        |                    |
+| VScode  | `cmd/ctrl+b`           | Toggle File explorer                                                 |                    |
+
+### Editor Group Navigation
+
+| Package | Shortcut       | Description                     | Remap Needed?      |
+| ------- | -------------- | ------------------------------- | ------------------ |
+| VSCode  | `ctrl + \`     | Split Editor                    | `keybindings.json` |
+| VSCode  | `ctrl + h/l`   | Move to left/right editor group | `keybindings.json` |
+| VSCode  | `cmd/ctrl + w` | Close editor group              |                    |

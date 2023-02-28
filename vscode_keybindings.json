@@ -1,0 +1,56 @@
+{
+  "vim.useCtrlKeys": true,
+  "vim.handleKeys": {
+    "<C-w>": false,
+    "<C-c>": false,
+    "<C-v>": false
+  },
+  "vim.useSystemClipboard": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["i", "i"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["i", "i"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "t", "n"],
+      "commands": [":tabnext"]
+    },
+    {
+      "before": ["<leader>", "t", "p"],
+      "commands": [":tabprev"]
+    },
+    {
+      "before": ["<leader>", "t", "f"],
+      "commands": [":tabfirst"]
+    },
+    {
+      "before": ["<leader>", "t", "l"],
+      "commands": [":tablast"]
+    }
+  ],
+  "vim.leader": " ",
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors": {
+    "normal": "#005f5f",
+    "insert": "#5f0000",
+    "visual": "#5f00af",
+    "visualline": "#005f87",
+    "visualblock": "#86592d",
+    "replace": "#000000"
+  },
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#5f0000",
+    "statusBar.noFolderBackground": "#5f0000",
+    "statusBar.debuggingBackground": "#5f0000"
+  }
+}
