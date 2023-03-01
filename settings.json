@@ -36,6 +36,7 @@
       "commands": [":tablast"]
     }
   ],
+  "vim.ignorecase": false,
   "vim.leader": " ",
   "vim.easymotion": true,
   "vim.sneak": true,
