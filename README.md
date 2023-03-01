@@ -256,13 +256,13 @@ Remember to remap the `leader` key to `space` in `settings.json`. For the emulat
 | Package        | Shortcut                      | Description                                                                                       | Remap Needed?      |
 | -------------- | ----------------------------- | ------------------------------------------------------------------------------------------------- | ------------------ |
 | Vim            | `gb`                          | Mutlicursor operation                                                                             |
+| VScode         | `Ctrl+n`                      | Rename all the pattern that is under the cursor                                                   | `keybindings.json` |
 | Vim Commentary | `gcc` / `gc5j`                | Toggle comment on this line / next 5 line(not including current line)                             |
 | EasyMotion     | `<leader><leader>s+[char]`    | Quick navigation to `[char]` on the screen(more motion on doc)                                    |                    |
 | Vim-surround   | `ys[motion][symbol]`, `ysiw)` | Yank `[symbol]` around `[motion]`, the example means surround the word under the cursor with `()` |                    |
 | Vim-surround   | `cs[symbol][newsymbol]`       | Change `[symbol]` to `[newsymbol]` when your cursor is within the `[symbol]`                      |                    |
 | Vim Sneak      | `<operator>z<char><char>`     | Do `[operator]` until the next occurence of `<char><char>`                                        |
 | Vim Sneak      | `3dzqt`                       | An example: Delete everything until the next 3rd occurence of `qt`                                |
-| VScode         | `Ctrl+n`                      | Rename all the pattern that is under the cursor                                                   | `keybindings.json` |
 
 ### Tab, File and Window Navigation
 
@@ -283,4 +283,4 @@ Remember to remap the `leader` key to `space` in `settings.json`. For the emulat
 | ------- | -------------- | ------------------------------- | ------------------ |
 | VSCode  | `ctrl + \`     | Split Editor                    | `keybindings.json` |
 | VSCode  | `ctrl + h/l`   | Move to left/right editor group | `keybindings.json` |
-| VSCode  | `cmd/ctrl + w` | Close editor group              |                    |
+| VSCode  | `cmd/ctrl + k + w` | Close all tabs in active editor group              |                    |
