@@ -216,7 +216,7 @@ Termtoggle plugins
 
 ## Part 3: Neovim Language Protocol Server(LSP) Setup
 
-**Tutorial Video Links: (Youtube)[https://www.youtube.com/watch?v=95XTFcdPoo0], (Bilibili)[https://www.bilibili.com/video/BV1wG4y1u75R]**
+**Tutorial Video Links: [Youtube](https://www.youtube.com/watch?v=95XTFcdPoo0), [Bilibili](https://www.bilibili.com/video/BV1wG4y1u75R)**
 <br>
 ### Plugins I use
 
