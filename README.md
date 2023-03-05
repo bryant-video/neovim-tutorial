@@ -216,7 +216,7 @@ Termtoggle plugins
 
 ## Part 3: Neovim Language Protocol Server(LSP) Setup
 
-**Tutorial Video Links: [Youtube](), [Bilibili]()**
+**Tutorial Video Links: [Youtube](https://www.youtube.com/watch?v=95XTFcdPoo0), [Bilibili](https://www.bilibili.com/video/BV1wG4y1u75R)**
 
 ### Plugins I use
 
@@ -248,7 +248,7 @@ These are the customized shortcuts **I configured**, which I use often. Feel fre
 
 ## Part 4: VScode Vim
 
-**Tutorial Video Links: Youtube, Bilibili** <br/>
+**Tutorial Video Links: (Youtube)[https://www.youtube.com/watch?v=FOLWWe5_vuM], (Bilibili)[https://www.bilibili.com/video/BV1rT411Y7un/]** <br/>
 Remember to remap the `leader` key to `space` in `settings.json`. For the emulated Vim plugins, some of them need to turn them on in `settings.json` as well, refer to the doc to see if that is required.
 
 ### Edit in `NORMAL`
