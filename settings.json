@@ -3,7 +3,9 @@
   "vim.handleKeys": {
     "<C-w>": false,
     "<C-c>": false,
-    "<C-v>": false
+    "<C-v>": false,
+    "<C-b>": false,
+    "<C-j>": false,
   },
   "vim.useSystemClipboard": true,
   "vim.insertModeKeyBindings": [
