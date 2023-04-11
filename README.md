@@ -10,6 +10,10 @@
 
 ### Part 4: [VSCode Vim](#part-4-vscode-vim-1)
 
+### Part 5: [Lazyvim](#part-5-lazyvim)
+
+### Part 6: [Chatgpt](#part-6-chatgpt)
+
 ---
 
 ## Part 1: Vim Shortcuts
@@ -284,3 +288,35 @@ Remember to remap the `leader` key to `space` in `settings.json`. For the emulat
 | VSCode  | `ctrl + \`     | Split Editor                    | `keybindings.json` |
 | VSCode  | `ctrl + h/l`   | Move to left/right editor group | `keybindings.json` |
 | VSCode  | `cmd/ctrl + k + w` | Close all tabs in active editor group              |                    |
+
+## Part 5: Lazyvim
+###See *Lazy* folder for my Lazyvim setup
+**LazyVim doc:** [here](https://www.lazyvim.org/) <br/>
+**Screenshot of the Installation Page:**
+![imge](install.png)
+**todo.nvim:** [here](https://github.com/folke/todo-comments.nvim) <br/>
+New/Updated shorcuts I use the most:
+| Package        | Shortcut                      | Description                                                                                       | Notes      |
+| -------------- | ----------------------------- | ------------------------------------------------------------------------------------------------- | ------------------ |
+| Telescope            | `<leader>sg`                          | live grep string | Different from Part 3 | 
+| Telescope         | `<leader>sk`                      | All shortcuts |  |
+| Telescope         | `<leader>sh`                      | All help pages |  |
+| todo         | `[t / ]t`                      | Prev/Next todo comment | |
+| Lspsaga         | `<leader>gp`                      | Peek definition| Different from Part 4 |
+| Lspconfig         | `<leader>cr`                     | Rename | Different from Part 4 |
+| trouble         | `<leader>xx`                      | Open diagnostic for current file  | Different from Part 4 |
+| trouble         | `<leader>xT`                      | Todo/Fix for current working space  | Use with todo.nvim |
+| tabnine         | `<C-a>`                      | AI autocomplete | Tab is taken by nvim-cmp |
+
+## Part 6: Chatgpt
+**OpenAI get API key:** [here](https://platform.openai.com/account/api-keys)
+### chatgpt.nvim
+Repo link: [here](https://github.com/jackMort/ChatGPT.nvim) <br/>
+
+### CodeGPT (in VScode)
+Official link: [here](https://code-gpt-docs.vercel.app/) <br/>
+
+
+
+
+
