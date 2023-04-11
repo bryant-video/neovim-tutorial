@@ -290,7 +290,7 @@ Remember to remap the `leader` key to `space` in `settings.json`. For the emulat
 | VSCode  | `cmd/ctrl + k + w` | Close all tabs in active editor group              |                    |
 
 ## Part 5: Lazyvim
-###See *Lazy* folder for my Lazyvim setup
+### See *Lazy* folder for my Lazyvim setup
 **LazyVim doc:** [here](https://www.lazyvim.org/) <br/>
 **Screenshot of the Installation Page:**
 ![imge](install.png)
