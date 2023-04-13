@@ -298,13 +298,13 @@ Remember to remap the `leader` key to `space` in `settings.json`. For the emulat
 New/Updated shorcuts I use the most:
 | Package        | Shortcut                      | Description                                                                                       | Notes      |
 | -------------- | ----------------------------- | ------------------------------------------------------------------------------------------------- | ------------------ |
-| Telescope            | `<leader>sg`                          | live grep string | Different from Part 3 | 
+| Telescope            | `<leader>sg`                          | live grep string | Different from Part 2 | 
 | Telescope         | `<leader>sk`                      | All shortcuts |  |
 | Telescope         | `<leader>sh`                      | All help pages |  |
 | todo         | `[t / ]t`                      | Prev/Next todo comment | |
-| Lspsaga         | `<leader>gp`                      | Peek definition| Different from Part 4 |
-| Lspconfig         | `<leader>cr`                     | Rename | Different from Part 4 |
-| trouble         | `<leader>xx`                      | Open diagnostic for current file  | Different from Part 4 |
+| Lspsaga         | `<leader>gp`                      | Peek definition| Different from Part 3 |
+| Lspconfig         | `<leader>cr`                     | Rename | Different from Part 3 |
+| trouble         | `<leader>xx`                      | Open diagnostic for current file  | Different from Part 3 |
 | trouble         | `<leader>xT`                      | Todo/Fix for current working space  | Use with todo.nvim |
 | tabnine         | `<C-n>`                      | AI autocomplete | Tab is taken by nvim-cmp |
 
