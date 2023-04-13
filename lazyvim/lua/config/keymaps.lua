@@ -16,7 +16,6 @@ keymap.set("n", "<leader>tf", "<cmd>tabfirst<cr>")
 keymap.set("n", "<leader>lds", "<cmd>Telescope lsp_document_symbols<cr>")
 keymap.set("n", "<leader>tgf", "<cmd>Telescope lsp_references<cr>")
 keymap.set("n", "<leader>cbf", "<cmd>Telescope current_buffer_fuzzy_find<cr>")
-
 -- telescope git commands
 keymap.set("n", "<leader>gc", "<cmd>Telescope git_commits<cr>") -- list all git commits (use <cr> to checkout) ["gc" for git commits]
 keymap.set("n", "<leader>gfc", "<cmd>Telescope git_bcommits<cr>") -- list git commits for current file/buffer (use <cr> to checkout) ["gfc" for git file commits]
@@ -37,4 +36,5 @@ keymap.set("n", "<leader>hw", ":HopWord<cr>")
 keymap.set("n", "<leader>hww", ":HopWordMW<cr>")
 keymap.set("n", "<leader>hc", ":HopChar1<cr>")
 keymap.set("n", "<leader>hcw", ":HopChar1MW<cr>")
-keymap.set("n", "<leader>hl", ":HopLine<cr>")
+
+keymap.set("n", "<leader>cge", "<cmd>ChatGPTEditWithInstructions<cr>")
