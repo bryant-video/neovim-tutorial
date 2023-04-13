@@ -306,7 +306,7 @@ New/Updated shorcuts I use the most:
 | Lspconfig         | `<leader>cr`                     | Rename | Different from Part 4 |
 | trouble         | `<leader>xx`                      | Open diagnostic for current file  | Different from Part 4 |
 | trouble         | `<leader>xT`                      | Todo/Fix for current working space  | Use with todo.nvim |
-| tabnine         | `<C-a>`                      | AI autocomplete | Tab is taken by nvim-cmp |
+| tabnine         | `<C-n>`                      | AI autocomplete | Tab is taken by nvim-cmp |
 
 ## Part 6: Chatgpt
 **OpenAI get API key:** [here](https://platform.openai.com/account/api-keys)
