@@ -36,5 +36,9 @@ return {
         end
       end, { "i", "s" }),
     })
+    opts.mapping = cmp.mapping.preset.insert(vim.tbl_deep_extend("force", opts.mapping, {
+      ["<C-n>"] = vim.NIL
+    }))
+
   end,
 }
