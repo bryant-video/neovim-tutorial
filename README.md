@@ -10,9 +10,9 @@
 
 ### Part 4: [VSCode Vim](#part-4-vscode-vim)
 
-### Part 5: [Lazyvim](#part-5-lazyvim)
+### Part 5: [Lazyvim](#part-5-lazyvim-1)
 
-### Part 6: [Chatgpt](#part-6-chatgpt)
+### Part 6: [Chatgpt](#part-6-chatgpt-1)
 
 ---
 
@@ -290,7 +290,7 @@ Remember to remap the `leader` key to `space` in `settings.json`. For the emulat
 | VSCode  | `cmd/ctrl + k + w` | Close all tabs in active editor group              |                    |
 
 ---
-## Part 5: [Lazyvim]
+## Part 5: Lazyvim
 ### See *Lazy* folder for my Lazyvim setup
 **LazyVim doc:** [here](https://www.lazyvim.org/) <br/>
 **Screenshot of the Installation Page:**
@@ -311,7 +311,7 @@ New/Updated shorcuts I use the most:
 
 ---
 
-## Part 6: [Chatgpt]
+## Part 6: Chatgpt
 **OpenAI get API key:** [here](https://platform.openai.com/account/api-keys)
 ### chatgpt.nvim
 Repo link: [here](https://github.com/jackMort/ChatGPT.nvim) <br/>
