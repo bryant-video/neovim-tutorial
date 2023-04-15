@@ -8,9 +8,9 @@
 
 ### Part 3: [Neovim Language Server Protocol(LSP) Setup](#part-3-neovim-language-protocol-serverlsp-setup)
 
-### Part 4: [VSCode Vim](#part-4-vscode-vim-1)
+### Part 4: [VSCode Vim](#part-4-vscode-vim)
 
-### Part 5: [Lazyvim](#part-4-vscode-vim-1)
+### Part 5: [Lazyvim](#part-5-lazyvim)
 
 ### Part 6: [Chatgpt](#part-4-vscode-vim-1)
 
@@ -289,6 +289,7 @@ Remember to remap the `leader` key to `space` in `settings.json`. For the emulat
 | VSCode  | `ctrl + h/l`   | Move to left/right editor group | `keybindings.json` |
 | VSCode  | `cmd/ctrl + k + w` | Close all tabs in active editor group              |                    |
 
+---
 ## Part 5: Lazyvim
 ### See *Lazy* folder for my Lazyvim setup
 **LazyVim doc:** [here](https://www.lazyvim.org/) <br/>
@@ -307,7 +308,7 @@ New/Updated shorcuts I use the most:
 | trouble         | `<leader>xx`                      | Open diagnostic for current file  | Different from Part 3 |
 | trouble         | `<leader>xT`                      | Todo/Fix for current working space  | Use with todo.nvim |
 | tabnine         | `<C-n>`                      | AI autocomplete | Tab is taken by nvim-cmp |
-
+---
 ## Part 6: Chatgpt
 **OpenAI get API key:** [here](https://platform.openai.com/account/api-keys)
 ### chatgpt.nvim
