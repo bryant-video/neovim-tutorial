@@ -37,4 +37,4 @@ keymap.set("n", "<leader>hww", ":HopWordMW<cr>")
 keymap.set("n", "<leader>hc", ":HopChar1<cr>")
 keymap.set("n", "<leader>hcw", ":HopChar1MW<cr>")
 
-keymap.set("n", "<leader>cge", "<cmd>ChatGPTEditWithInstructions<cr>")
+keymap.set("n", "<leader>ce", "<cmd>ChatGPTEditWithInstructions<cr>")
