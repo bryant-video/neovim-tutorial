@@ -10,9 +10,9 @@
 
 ### Part 4: [VSCode Vim](#part-4-vscode-vim-1)
 
-### Part 5: [Lazyvim](#part-5-lazyvim)
+### Part 5: [Lazyvim](#part-4-vscode-vim-1)
 
-### Part 6: [Chatgpt](#part-6-chatgpt)
+### Part 6: [Chatgpt](#part-4-vscode-vim-1)
 
 ---
 
