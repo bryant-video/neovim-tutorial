@@ -12,7 +12,7 @@
 
 ### Part 5: [Lazyvim](#part-5-lazyvim)
 
-### Part 6: [Chatgpt](#part-4-vscode-vim-1)
+### Part 6: [Chatgpt](#part-6-chatgpt)
 
 ---
 
@@ -290,7 +290,6 @@ Remember to remap the `leader` key to `space` in `settings.json`. For the emulat
 | VSCode  | `cmd/ctrl + k + w` | Close all tabs in active editor group              |                    |
 
 ---
-
 ## Part 5: Lazyvim
 ### See *Lazy* folder for my Lazyvim setup
 **LazyVim doc:** [here](https://www.lazyvim.org/) <br/>
