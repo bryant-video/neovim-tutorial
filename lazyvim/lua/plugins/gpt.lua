@@ -4,8 +4,8 @@ return {
   config = function()
     require("chatgpt").setup({
       keymaps = {
-        submit = "<C-s>",
-        yank_last_code = "<C-a>",
+        submit = "<C-Enter>",
+        yank_last_code = "<C-y>",
       },
     })
   end,
