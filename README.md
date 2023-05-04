@@ -10,9 +10,9 @@
 
 ### Part 4: [VSCode Vim](#part-4-vscode-vim)
 
-### Part 5: [Lazyvim](#part-5-lazyvim)
+### Part 5: [Lazyvim](#part-5-lazyvim-1)
 
-### Part 6: [Chatgpt](#part-4-vscode-vim-1)
+### Part 6: [Chatgpt](#part-6-chatgpt-1)
 
 ---
 
@@ -308,7 +308,9 @@ New/Updated shorcuts I use the most:
 | trouble         | `<leader>xx`                      | Open diagnostic for current file  | Different from Part 3 |
 | trouble         | `<leader>xT`                      | Todo/Fix for current working space  | Use with todo.nvim |
 | tabnine         | `<C-n>`                      | AI autocomplete | Tab is taken by nvim-cmp |
+
 ---
+
 ## Part 6: Chatgpt
 **OpenAI get API key:** [here](https://platform.openai.com/account/api-keys)
 ### chatgpt.nvim

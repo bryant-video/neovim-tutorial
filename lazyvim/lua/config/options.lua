@@ -8,4 +8,3 @@ opt.wildmode = "longest:list,full"
 g.rust_recommended_style = 0
 g.tmux_navigator_no_mappings = 1
 opt.relativenumber = false
-
