@@ -8,7 +8,7 @@
 
 ### Part 3: [Neovim Language Server Protocol(LSP) Setup](#part-3-neovim-language-protocol-serverlsp-setup)
 
-### Part 4: [VSCode Vim](#part-4-vscode-vim)
+### Part 4: [VSCode Vim](#part-4-vscode-vim-1)
 
 ### Part 5: [Lazyvim](#part-5-lazyvim-1)
 
